@@ -2,11 +2,11 @@ import Funcionario from "./Funcionario"
 
 export default class Veterinario extends Funcionario {
     realizarConsulta(): void {
-        console.log(`${this.getNome()} realizou uma consulta.`)
+        console.log(` realizou uma consulta.`)
     }
 
     prescreverTratamento(tratamento: string): void {
-        console.log(`${this.getNome()} prescreveu: ${tratamento}`)
+        console.log(`o doutor prescreveu: ${tratamento}`)
     }
 
     calcularBonus(quantidade: number): number {
