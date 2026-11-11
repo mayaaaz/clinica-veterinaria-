@@ -2,7 +2,7 @@ import Animal from "./Animal"
 
 export default class Gato extends Animal {
     emitirSom(): string {
-        return "Miau!"
+        return "miaumiaumiuau"
     }
 
     descreverCuidados(): string {
